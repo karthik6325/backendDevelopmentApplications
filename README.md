@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+### Task: Build a Real-Time Chat Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this assignment, your task is to create a real-time chat application using Node.js, Express.js, TypeScript, and Socket.io. This chat application will enable users to communicate with each other by sending text messages and sharing images in real-time within a chat room.
 
-## Available Scripts
+### Requirements:
 
-In the project directory, you can run:
+1. **Backend Setup with Node.js, Express.js, TypeScript, and Socket.io:**
 
-### `npm start`
+   - Set up a Node.js server using Express.js to handle HTTP requests and Socket.io to enable real-time WebSocket communication.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **User Authentication:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   - Implement user authentication to allow users to join the chat room with a unique username. Users should not be able to use the same username simultaneously.
 
-### `npm test`
+3. **Chat Room Creation:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Create a chat room where users can join and exchange messages. Multiple chat rooms may be supported, and users should be able to choose a room to join.
 
-### `npm run build`
+4. **Real-Time Text Messaging:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Implement real-time text messaging functionality within the chat room. Messages sent by one user should be immediately visible to all other users in the same chat room.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Image Sharing:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - Enable users to upload and share images within the chat. Images should be uploaded to the server, temporarily stored, and then shared as part of the chat conversation.
 
-### `npm run eject`
+6. **Error Handling:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - Implement error handling mechanisms to gracefully handle scenarios such as user disconnections, failed image uploads, or other potential issues that may arise during real-time communication.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. **Documentation:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   - Create Postman collection or Swagger documentation for your WebSocket API endpoints. The documentation should provide comprehensive information about the WebSocket events, data structures, and message formats used for communication.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Submission Details:
 
-## Learn More
+To submit your assignment, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Fork Repository:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - Fork the provided GitHub repository to create your own copy.
 
-### Code Splitting
+2. **Create Branch:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   - Create a new branch in your forked repository with your name (e.g., "yourname_assignment").
 
-### Analyzing the Bundle Size
+3. **Commit Regularly:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   - Commit your code regularly to the branch so that your progress can be tracked.
 
-### Making a Progressive Web App
+4. **Pull Request:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   - Once you have completed the assignment, create a pull request from your branch to the main repository. Replace "main repository" with the URL of the original repository.
 
-### Advanced Configuration
+5. **README.md:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   - Include a README.md file in your project repository. This README should explain your approach to building the chat application, any challenges you faced, and any additional features or improvements you would have added if given more time.
 
-### Deployment
+6. **Documentation Link:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   - Include the link to your Postman collection or Swagger documentation in the README.md file.
 
-### `npm run build` fails to minify
+### Evaluation Criteria:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your assignment will be evaluated based on the following factors:
+
+- **Technical Proficiency:**
+  - Demonstrating your skills in using Node.js, Express.js, TypeScript, and Socket.io to build a functional real-time chat application with image sharing.
+
+- **Code Quality:**
+  - Writing clean, well-structured, and maintainable code with proper comments and strict typing.
+
+- **WebSocket Implementation:**
+  - Creating WebSocket endpoints and handling real-time communication effectively.
+
+- **User Authentication:**
+  - Implementing a secure user authentication system.
+
+- **Image Upload:**
+  - Allowing users to upload and share images in the chat room.
+
+- **Error Handling:**
+  - Implementing error handling mechanisms for a robust chat application.
+
+- **Documentation:**
+  - Providing detailed Postman collection or Swagger documentation for the WebSocket API endpoints.
+
+### Submission Deadline:
+
+You have 3-4 days from the date you received this assignment to complete and submit it.
+
+Good luck with the assignment! If you have any questions during the development process, feel free to reach out for clarification. Happy coding!
